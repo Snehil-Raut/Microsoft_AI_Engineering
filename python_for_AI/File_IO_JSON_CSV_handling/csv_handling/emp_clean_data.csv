@@ -1,0 +1,16 @@
+employee_id,name,department,salary,joining_date,email,phone
+101,John Doe,Engineering,85000,2021-05-12,john.doe@email.com,98764210
+102,Jane Smith,Hr,62000,,jane.smith@email.com,912345780
+103,Mike Johnson,Engineering,0,2019-07-15,mike.j@email,9988776655
+104,Emily Davis,Finance,72000,,emily.davis@email.com,0
+105,Chris Brown,Marketing,68000,,chris@email.com,8877665544
+106,Sarah Wilson,Hr,0,2020-09-30,sarah.wilson@email.com,99883412
+107,David Lee,Engineering,95000,2022-01-10,david.lee@email.com,9876501234
+108,Unknown,Finance,71000,2021-06-18,finance@email.com,9012345678
+109,Anna Taylor,Marketing,67000,2021-04-25,anna.taylor@email.com,899001122
+110,Robert King,Engineering,120000,2023-02-01,robert.king@email.com,12345
+111,Lisa White,Finance,78000,,lisa.white@email.com,9090909090
+112,Tom Harris,Engineering,88000,2022-10-11,tom.harris@email.com,998871122
+113,Nina Patel,Hr,54000,2021-08-20,nina.patel@email,8877002211
+114,Kevin Scott,Marketing,65000,2020-05-17,kevin.scott@email.com,0
+115,Olivia Green,Finance,5000,2022-12-12,olivia.green@email.com,9098765432

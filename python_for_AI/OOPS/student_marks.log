@@ -1,0 +1,58 @@
+2026-06-02 14:58:36,212 - ERROR - Validation Error for Student 101: Mark -87.0 is out of the valid 0-100 range.
+2026-06-02 15:04:55,154 - ERROR - Fail to add makrs as Marks list is empty
+Traceback (most recent call last):
+  File "C:\Desktop\Desktop\python\PythonConcept\python_for-AI\OOPS\Student_Management_System.py", line 52, in pass_fail
+    avg_marks = sum(self.marks)/len(self.marks)
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+2026-06-02 15:06:49,789 - ERROR - Fail to add maa as Marks list is empty
+Traceback (most recent call last):
+  File "C:\Desktop\Desktop\python\PythonConcept\python_for-AI\OOPS\Student_Management_System.py", line 52, in pass_fail
+    avg_marks = sum(self.marks)/len(self.marks)
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+2026-06-02 15:49:40,592 - CRITICAL - Unexpected error adding mark for Student 101: 'int' object is not iterable
+2026-06-02 16:02:53,671 - CRITICAL - Unexpected error adding mark for Student 101: 'int' object is not iterable
+2026-06-02 16:39:11,030 - ERROR - Fail to add maa as Marks list is empty
+Traceback (most recent call last):
+  File "C:\Desktop\Desktop\python\PythonConcept\python_for-AI\OOPS\Student_Management_System.py", line 84, in pass_fail
+    avg_marks = sum(self.marks)/len(self.marks)
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+2026-06-02 16:46:16,297 - ERROR - Fail to add maa as Marks list is empty
+Traceback (most recent call last):
+  File "C:\Desktop\Desktop\python\PythonConcept\python_for-AI\OOPS\Student_Management_System.py", line 85, in pass_fail
+    avg_marks = sum(self.marks)/len(self.marks)
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+2026-06-02 16:48:10,935 - CRITICAL - Unexpected error adding mark for Student 106: float() argument must be a string or a real number, not 'list'
+2026-06-02 16:48:10,936 - ERROR - Fail to add maa as Marks list is empty
+Traceback (most recent call last):
+  File "C:\Desktop\Desktop\python\PythonConcept\python_for-AI\OOPS\Student_Management_System.py", line 85, in pass_fail
+    avg_marks = sum(self.marks)/len(self.marks)
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+2026-06-02 16:49:53,605 - ERROR - Fail to add maa as Marks list is empty
+Traceback (most recent call last):
+  File "C:\Desktop\Desktop\python\PythonConcept\python_for-AI\OOPS\Student_Management_System.py", line 85, in pass_fail
+    avg_marks = sum(self.marks)/len(self.marks)
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+2026-06-02 16:53:39,886 - ERROR - Fail to add maa as Marks list is empty
+Traceback (most recent call last):
+  File "C:\Desktop\Desktop\python\PythonConcept\python_for-AI\OOPS\Student_Management_System.py", line 86, in pass_fail
+    avg_marks = sum(self.marks)/len(self.marks)
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+2026-06-02 20:03:18,936 - ERROR - Fail to add maa as Marks list is empty
+Traceback (most recent call last):
+  File "C:\Desktop\Desktop\python\PythonConcept\python_for-AI\OOPS\Student_Management_System.py", line 84, in pass_fail
+    avg_marks = sum(self.marks)/len(self.marks)
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+2026-06-02 20:08:07,557 - ERROR - Fail to add maa as Marks list is empty
+Traceback (most recent call last):
+  File "C:\Desktop\Desktop\python\PythonConcept\python_for-AI\OOPS\Student_Management_System.py", line 84, in pass_fail
+    avg_marks = sum(self.marks)/len(self.marks)
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero

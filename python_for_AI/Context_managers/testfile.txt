@@ -1,0 +1,2 @@
+This is a file used for context manager hands-on, to see how context manager works with files using "with" .
+Even if error occurs in the file , it should close automatically

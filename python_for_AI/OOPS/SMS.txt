@@ -1,0 +1,272 @@
+Design and build a mini student management system entirely from scratch using Python OOP principles.
+
+The goal is not just to “make it work,” but to demonstrate that you fully understand:
+
+object creation
+inheritance
+method overriding
+class vs instance variables
+dunder methods
+object relationships
+debugging
+design decisions
+extensibility
+Main Problem Statement
+
+Create a system for managing students in a university.
+
+The university has:
+
+regular students
+scholarship students
+graduate students
+
+Each student should behave differently in some situations, but all should share common functionality through inheritance.
+
+Your design should be scalable enough that adding new student types later would require minimal code changes.
+
+Core Requirements
+1. Base Student Class
+
+The base class should contain:
+
+Instance Variables
+
+Every student should have:
+
+name
+student_id
+age
+department
+marks (multiple subjects)
+attendance percentage
+Class Variables
+
+Track:
+
+total number of students created
+university name
+passing percentage
+
+You must clearly separate:
+
+what belongs to the class
+what belongs to each object
+
+Be able to explain:
+
+why each variable was chosen as class or instance variable
+2. Required Methods
+
+Implement meaningful methods such as:
+
+add/update marks
+calculate average
+check pass/fail
+display profile
+compare two students
+update attendance
+determine grade
+
+Your methods should handle:
+
+invalid input
+edge cases
+unexpected values
+3. Dunder Methods (Mandatory)
+
+Implement and justify these:
+
+__init__
+
+Initialize objects properly.
+
+Be able to explain:
+
+why constructors matter
+what happens if values are missing or invalid
+__str__
+
+Readable output for users.
+
+Example idea:
+
+print(student)
+
+Should display useful information cleanly.
+
+__repr__
+
+Developer-focused representation.
+
+Be able to explain:
+
+difference between __str__ and __repr__
+when Python internally uses them
+__len__
+
+Return something meaningful.
+
+Possible ideas:
+
+number of subjects
+number of completed assignments
+number of enrolled courses
+
+You decide the design and justify it.
+
+4. Inheritance
+
+Create at least TWO child classes.
+
+Example ideas:
+
+ScholarshipStudent
+GraduateStudent
+
+Each child class must:
+
+inherit from Student
+add its own unique attributes
+add its own unique behavior
+
+Example:
+
+scholarship amount
+thesis topic
+research credits
+internship status
+5. Method Overriding
+
+At least one method from Student must behave differently in child classes.
+
+Example ideas:
+
+grading system differs
+scholarship students require higher passing marks
+graduate students use thesis evaluation
+
+You must:
+
+override the method
+explain why overriding was needed
+6. Use super()
+
+You must properly use super() in child classes.
+
+Be able to explain:
+
+what happens internally
+why super() is preferred over directly calling parent methods
+MRO basics (Method Resolution Order)
+7. Object Interactions
+
+Students should be able to interact meaningfully.
+
+Example ideas:
+
+compare GPA
+compare attendance
+check topper
+merge course lists
+transfer departments
+8. Validation & Error Handling
+
+Your system should NOT crash on bad input.
+
+Handle cases like:
+
+negative marks
+attendance above 100
+empty names
+duplicate subjects
+invalid student IDs
+
+You should decide:
+
+where validation belongs
+whether validation belongs in methods or constructors
+9. Design Challenge (Important)
+
+After building the system, answer these questions:
+
+Design Questions
+Why did you use inheritance here?
+Why are some variables class variables?
+When should composition be preferred over inheritance?
+What breaks if class variables are modified incorrectly?
+What would happen if super() is removed?
+Why should __repr__ ideally recreate the object?
+Why is overriding better than copying methods?
+How would you scale this system for 100,000 students?
+What are the weaknesses of your design?
+How would you redesign this for a real database-backed application?
+10. Debugging Scenarios
+
+You should also be able to debug problems like:
+
+Scenario 1
+
+All students suddenly share the same marks dictionary.
+
+Why did this happen?
+
+Scenario 2
+
+len(student) crashes.
+
+Why?
+
+Scenario 3
+
+A child class constructor breaks after adding a new parent variable.
+
+Diagnose and fix it.
+
+Scenario 4
+
+Changing passing percentage for one student changes it for all students.
+
+Why?
+
+Scenario 5
+
+Printing a list of students shows weird memory addresses.
+
+Fix it properly.
+
+Depth 3 Expectations
+
+You should be able to:
+
+build everything without tutorials
+explain every design decision
+debug inheritance issues
+explain memory behavior
+explain class namespace vs object namespace
+explain why method overriding exists
+reason about extensibility
+identify bad OOP practices
+refactor duplicated logic cleanly
+Bonus (Very Strong Depth 3)
+
+Add:
+
+operator overloading (__gt__, __eq__)
+sorting students by GPA
+save/load students from file
+abstract base classes
+multiple inheritance
+custom exceptions
+course objects instead of plain dictionaries
+Final Deliverable
+
+Your final program should feel like a small real-world system, not a toy example.
+
+Someone reading your code should see:
+
+proper OOP thinking
+scalable design
+debugging maturity
+clean separation of responsibility
+understanding beyond syntax
